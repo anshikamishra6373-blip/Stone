@@ -1,0 +1,105 @@
+h1{
+    background-color: rgb(2, 8, 23);
+    color: white;
+    height:5 rem;
+    text-align: center;
+    line-height: center;
+}
+.containers{
+    /* border-radius: 50%;
+    height:200px;
+    width:200px;
+    border:2px solid black;
+     */
+     display: flex;
+     
+     
+     
+    background-size:cover;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+     margin:8px;
+    background-color: brown;
+    gap:3rem;
+}
+
+#id1{
+    /* background-color:pink ; */
+    /* border-radius: 50%;
+    height:300px;
+    width:300px;
+     margin:8px;
+    border:2px solid black; */
+    background-image: url("image3.png");
+    background-size:cover;
+    
+}
+#id2{
+    /* background-color:purple ; */
+    /* border-radius: 50%;
+    height:300px;
+    width:300px;
+     margin:10px;
+    border:2px solid black; */
+     background-image: url("image2.png");
+     background-size:cover;
+    
+}
+
+#id3{
+    /* background-color:burlywood; */
+    /* border-radius: 50%;
+    height:300px;
+    width:300px;
+     margin:10px;
+    border:2px solid black; */
+     background-image: url("image.png");
+     background-size:cover;
+}
+.turns{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(14, 1, 30);
+    color: white;
+    gap:5rem ;
+}
+.turn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2 rem;
+}
+.myturn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+
+    background-color: white;
+    display: flex;
+    
+
+}
+#head{
+    background-color:crimson;
+    height:100 px;
+    width:200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius:1rem;
+}
+.container:hover{
+    border: 5px solid rgb(163, 19, 19);
+    opacity:0.5;
+    cursor:pointer;
+
+}
